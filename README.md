@@ -36,9 +36,9 @@ ResNet-18 Model: https://gist.github.com/Hari0002/605834f6cb2978afa7bb3e7735be10
 
 Training Script: https://gist.github.com/Hari0002/96c419e0deff6e90ee087e9d431edde7
 
-Inference Script: scripts/inference.py
+Inference Script: https://gist.github.com/Hari0002/cea9a0e33b482bfdac9e1f6d7c349d79
 
-jupyter Notebook implementation:
+jupyter Notebook implementation: https://gist.github.com/Hari0002/217176bab5a288e1aa51774d673b2bc0
 
 ## ⚙️ Setup  
 1. Install dependencies:  
