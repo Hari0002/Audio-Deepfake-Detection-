@@ -37,3 +37,13 @@ This repository implements a ResNet-18-based model to classify audio clips as **
    ```bash  
    pip install -r requirements.txt  # Requires PyTorch, Librosa, Torchaudio  
 ---
+## 📊 Performance
+Dataset	EER (%)	Accuracy (%)
+ASVspoof 2021 DF	8.21	92.5
+In-the-Wild	12.37	85.3
+## 🌟 Future Improvements
+Hybrid features (spectrograms + raw waveform embeddings).
+
+Dynamic data augmentation (e.g., codec simulation).
+
+Quantization for edge deployment (TensorRT/TFLite).
