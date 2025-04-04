@@ -31,6 +31,12 @@ This repository implements a ResNet-18-based model to classify audio clips as **
    - Real-world audio clips with background noise and compression artifacts.  
 
 ---
+## Critical Files
+ResNet-18 Model: models/resnet.py
+
+Training Script: scripts/train.py
+
+Inference Script: scripts/inference.py
 
 ## ⚙️ Setup  
 1. Install dependencies:  
