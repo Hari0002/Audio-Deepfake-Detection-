@@ -34,7 +34,7 @@ This repository implements a ResNet-18-based model to classify audio clips as **
 ## Critical Files
 ResNet-18 Model: models/resnet.py
 
-Training Script: scripts/train.py
+Training Script: https://gist.github.com/Hari0002/96c419e0deff6e90ee087e9d431edde7
 
 Inference Script: scripts/inference.py
 
