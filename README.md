@@ -40,6 +40,15 @@ Inference Script: https://gist.github.com/Hari0002/cea9a0e33b482bfdac9e1f6d7c349
 
 jupyter Notebook implementation: https://gist.github.com/Hari0002/217176bab5a288e1aa51774d673b2bc0
 
+## Key Files and Their Roles
+File/Folder,	Purpose
+configs/params.yaml	,Hyperparameters (sample rate, batch size, learning rate).
+scripts/preprocess.py,	Converts raw audio → spectrograms.
+scripts/train.py	,Trains the ResNet-18 model.
+scripts/evaluate.py	,Computes accuracy/EER on test data.
+scripts/inference.py	,Predicts labels for new audio files.
+models/resnet.py	,Defines the ResNet-18 architecture.
+
 ## ⚙️ Setup  
 1. Install dependencies:  
    ```bash  
