@@ -31,3 +31,9 @@ This repository implements a ResNet-18-based model to classify audio clips as **
    - Real-world audio clips with background noise and compression artifacts.  
 
 ---
+
+## ⚙️ Setup  
+1. Install dependencies:  
+   ```bash  
+   pip install -r requirements.txt  # Requires PyTorch, Librosa, Torchaudio  
+---
